@@ -70,7 +70,9 @@ public class Test03_redbus
 		
 		if(str.contains(al))
 		{
-			System.out.println("alert message validated correctly");
+			System.out.println("1.alert message validated correctly");
+			System.out.println("2.alert message validated correctly");
+			System.out.println("3.alert message validated correctly");
 			Reporter.log("alert validated");
 		}
 		else
