@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="uname" value=""/>
+    <parameter name="bn" value="chrome"/>
+    <parameter name="pwd" value="123456"/>
+    <parameter name="almsg" value="Please enter username"/>
+    <classes>
+      <class name="prct3tests.Test03_redbus">
+        <methods>
+          <include name="method2" invocation-numbers="0"/>
+          <include name="method"/>
+        </methods>
+      </class> <!-- prct3tests.Test03_redbus -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test  name="Test">
+		<parameter name="bn"  value="chrome" />	
+		<parameter name="uname"  value="" />	
+		<parameter name="pwd"  value="123456" />
+		<parameter name="almsg"  value="Please enter username" />	
+		
+		<classes>
+			<class name="prct3tests.Test03_redbus"/>
+		</classes>
+</test>
+
+</suite> <!-- Suite -->
